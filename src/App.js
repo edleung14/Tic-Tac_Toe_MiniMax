@@ -60,7 +60,6 @@ function App() {
       var nextMove = minimax(tempState, "O");
 
       if (nextMove.index === undefined) {
-        console.log("11");
         //Tie
         setWinner("T");
       }
