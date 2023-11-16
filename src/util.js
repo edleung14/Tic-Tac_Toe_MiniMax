@@ -55,15 +55,12 @@ export function minimax(board, player) {
       }
 
       // Reset the spot to empty
-      board[i] = " ";
+      board[i] = "";
 
       // Collect the move and its score
       moves.push(move);
     }
   }
-
-  // console.log("All the moves have considered");
-  // console.table(moves);
 
   // Find the best move
   let bestMove;
